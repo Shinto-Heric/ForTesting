@@ -1,0 +1,312 @@
+{
+  "screenName": "StatsPopup",
+  "elements": [
+    {
+      "entityData": {
+        "id": "Title",
+        "name": "Label",
+        "posData": {
+          "x": 0.5,
+          "y": 0.35,
+          "w": 0.6,
+          "h": 0.1
+        }
+      },
+      "labelData": {
+        "text": "Stats",
+        "fontKey": "popupTitle",
+        "textSize": 26,
+        "textColor": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 255
+        }
+      }
+    },
+    {
+      "entityData": {
+        "id": "Wins",
+        "name": "Label",
+        "posData": {
+          "x": 0.6,
+          "y": 0.45,
+          "w": 0.4,
+          "h": 0.05
+        }
+      },
+      "labelData": {
+        "text": "Wins: 0",
+        "fontKey": "popupTitle",
+        "textSize": 22,
+        "textColor": {
+          "r": 0,
+          "g": 255,
+          "b": 0,
+          "a": 255
+        }
+      }
+    },
+    {
+      "entityData": {
+        "id": "Losses",
+        "name": "Label",
+        "posData": {
+          "x": 0.6,
+          "y": 0.52,
+          "w": 0.4,
+          "h": 0.05
+        }
+      },
+      "labelData": {
+        "text": "Losses: 0",
+        "fontKey": "popupTitle",
+        "textSize": 22,
+        "textColor": {
+          "r": 255,
+          "g": 0,
+          "b": 0,
+          "a": 255
+        }
+      }
+    },
+    {
+      "entityData": {
+        "id": "Draws",
+        "name": "Label",
+        "posData": {
+          "x": 0.6,
+          "y": 0.59,
+          "w": 0.4,
+          "h": 0.05
+        }
+      },
+      "labelData": {
+        "text": "Draws: 0",
+        "fontKey": "popupTitle",
+        "textSize": 22,
+        "textColor": {
+          "r": 255,
+          "g": 255,
+          "b": 0,
+          "a": 255
+        }
+      }
+    },
+    {
+      "entityData": {
+        "id": "Easy",
+        "name": "Button",
+        "texPath": "../Assets/Buttons/Button_Background.png",
+        "posData": {
+          "x": 0.35,
+          "y": 0.45,
+          "w": 0.18,
+          "h": 0.05
+        }
+      },
+      "buttonData": {
+        "text": "Easy",
+        "fontKey": "button",
+        "textSize": 22,
+        "bgColor": {
+          "r": 40,
+          "g": 180,
+          "b": 99,
+          "a": 255
+        },
+        "hoverBgColor": {
+          "r": 60,
+          "g": 220,
+          "b": 130,
+          "a": 255
+        },
+        "textColor": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 255
+        },
+        "hoverTextColor": {
+          "r": 240,
+          "g": 240,
+          "b": 240,
+          "a": 255
+        },
+        "anim": true
+      }
+    },
+    {
+      "entityData": {
+        "id": "Medium",
+        "name": "Button",
+        "texPath": "../Assets/Buttons/Button_Background.png",
+        "posData": {
+          "x": 0.35,
+          "y": 0.5,
+          "w": 0.18,
+          "h": 0.05
+        }
+      },
+      "buttonData": {
+        "text": "Medium",
+        "fontKey": "button",
+        "textSize": 22,
+        "bgColor": {
+          "r": 243,
+          "g": 156,
+          "b": 18,
+          "a": 255
+        },
+        "hoverBgColor": {
+          "r": 255,
+          "g": 190,
+          "b": 60,
+          "a": 255
+        },
+        "textColor": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 255
+        },
+        "hoverTextColor": {
+          "r": 240,
+          "g": 240,
+          "b": 240,
+          "a": 255
+        },
+        "anim": true
+      }
+    },
+    {
+      "entityData": {
+        "id": "Hard",
+        "name": "Button",
+        "texPath": "../Assets/Buttons/Button_Background.png",
+        "posData": {
+          "x": 0.35,
+          "y": 0.55,
+          "w": 0.18,
+          "h": 0.05
+        }
+      },
+      "buttonData": {
+        "text": "Hard",
+        "fontKey": "button",
+        "textSize": 22,
+        "bgColor": {
+          "r": 231,
+          "g": 76,
+          "b": 60,
+          "a": 255
+        },
+        "hoverBgColor": {
+          "r": 255,
+          "g": 110,
+          "b": 100,
+          "a": 255
+        },
+        "textColor": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 255
+        },
+        "hoverTextColor": {
+          "r": 240,
+          "g": 240,
+          "b": 240,
+          "a": 255
+        },
+        "anim": true
+      }
+    },
+    {
+      "entityData": {
+        "id": "Local",
+        "name": "Button",
+        "texPath": "../Assets/Buttons/Button_Background.png",
+        "posData": {
+          "x": 0.35,
+          "y": 0.6,
+          "w": 0.18,
+          "h": 0.05
+        }
+      },
+      "buttonData": {
+        "text": "Local",
+        "fontKey": "button",
+        "textSize": 22,
+        "bgColor": {
+          "r": 52,
+          "g": 152,
+          "b": 219,
+          "a": 255
+        },
+        "hoverBgColor": {
+          "r": 86,
+          "g": 178,
+          "b": 245,
+          "a": 255
+        },
+        "textColor": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 255
+        },
+        "hoverTextColor": {
+          "r": 240,
+          "g": 240,
+          "b": 240,
+          "a": 255
+        },
+        "anim": true
+      }
+    },
+    {
+      "entityData": {
+        "id": "Back",
+        "name": "Button",
+        "texPath": "../Assets/Buttons/Button_Background.png",
+        "posData": {
+          "x": 0.5,
+          "y": 0.7,
+          "w": 0.18,
+          "h": 0.05
+        }
+      },
+      "buttonData": {
+        "text": "Back",
+        "fontKey": "button",
+        "textSize": 22,
+        "bgColor": {
+          "r": 108,
+          "g": 122,
+          "b": 137,
+          "a": 255
+        },
+        "hoverBgColor": {
+          "r": 149,
+          "g": 165,
+          "b": 166,
+          "a": 255
+        },
+        "textColor": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 255
+        },
+        "hoverTextColor": {
+          "r": 240,
+          "g": 240,
+          "b": 240,
+          "a": 255
+        },
+        "anim": true
+      }
+    }
+  ]
+}

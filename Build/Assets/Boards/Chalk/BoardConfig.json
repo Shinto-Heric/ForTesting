@@ -1,0 +1,36 @@
+{
+  "boardName": "Chalk",
+  "elements": [
+    {
+      "entityData": {
+        "id": "Board",
+        "name": "Board",
+        "texPath": "../Assets/Boards/Chalk/Board.png",
+        "posData": { "x": 0.5, "y": 0.5, "w": 0.75, "h": 0.75 }
+      }
+    },
+    {
+      "entityData": {
+        "id": "MarkerX",
+        "name": "MarkerX",
+        "texPath": "../Assets/Boards/Chalk/X.png",
+        "posData": { "x": 0.5, "y": 0.5, "w": 0.1, "h": 0.1 }
+      }
+    },
+    {
+      "entityData": {
+        "id": "MarkerO",
+        "name": "MarkerO",
+        "texPath": "../Assets/Boards/Chalk/O.png",
+        "posData": { "x": 0.5, "y": 0.5, "w": 0.1, "h": 0.1 }
+      }
+    }
+  ],
+  "cellRects": [
+    { "x": 0.26, "y": 0.27, "w": 0.13, "h": 0.13 },  { "x": 0.435, "y": 0.27, "w": 0.13, "h": 0.13 },  { "x": 0.61, "y": 0.27, "w": 0.13, "h": 0.13 },
+
+    { "x": 0.26, "y": 0.44, "w": 0.13, "h": 0.13 },  { "x": 0.435, "y": 0.44, "w": 0.13, "h": 0.13 },  { "x": 0.61, "y": 0.44, "w": 0.13, "h": 0.13 },
+
+    { "x": 0.26, "y": 0.61, "w": 0.13, "h": 0.13 },  { "x": 0.435, "y": 0.61, "w": 0.13, "h": 0.13 },  { "x": 0.61, "y": 0.61, "w": 0.13, "h": 0.13 }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+
+  "screenName": "DifficultySelectionPopup",
+  "elements": [
+    {
+      "entityData": {
+        "id": "Title",
+        "name": "Label",
+        "posData": {
+          "x": 0.5,
+          "y": 0.4,
+          "w": 0.7,
+          "h": 0.5
+        }
+      },
+      "labelData": {
+        "text": "Select Difficulty",
+        "fontKey": "popupTitle",
+        "textSize": 24,
+        "textColor": {
+          "r": 255,
+          "g": 0,
+          "b": 0,
+          "a": 255
+        }
+      }
+    },
+    {
+      "entityData": {
+        "id": "Easy",
+        "name": "Button",
+        "texPath": "../Assets/Buttons/Button_Background.png",
+        "posData": {
+          "x": 0.31,
+          "y": 0.5,
+          "w": 0.18,
+          "h": 0.05
+        }
+      },
+      "buttonData": {
+        "bgColor": {
+          "r": 0,
+          "g": 255,
+          "b": 0,
+          "a": 255
+        },
+        "hoverBgColor": {
+          "r": 255,
+          "g": 255,
+          "b": 0,
+          "a": 255
+        },
+        "text": "Easy",
+        "fontKey": "button",
+        "textSize": 24,
+        "textColor": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 255
+        },
+        "hoverTextColor": {
+          "r": 100,
+          "g": 100,
+          "b": 150,
+          "a": 255
+        },
+        "anim": true
+      }
+    },
+
+    {
+      "entityData": {
+        "id": "Medium",
+        "name": "Button",
+        "texPath": "../Assets/Buttons/Button_Background.png",
+        "posData": {
+          "x": 0.5,
+          "y": 0.5,
+          "w": 0.18,
+          "h": 0.05
+        }
+      },
+      "buttonData": {
+        "bgColor": {
+          "r": 255,
+          "g": 125,
+          "b": 0,
+          "a": 255
+        },
+        "hoverBgColor": {
+          "r": 255,
+          "g": 255,
+          "b": 0,
+          "a": 255
+        },
+        "text": "Medium",
+        "fontKey": "button",
+        "textSize": 24,
+        "textColor": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 255
+        },
+        "hoverTextColor": {
+          "r": 100,
+          "g": 100,
+          "b": 150,
+          "a": 255
+        },
+        "anim": true
+      }
+    },
+
+    {
+      "entityData": {
+        "id": "Hard",
+        "name": "Button",
+        "texPath": "../Assets/Buttons/Button_Background.png",
+        "posData": {
+          "x": 0.69,
+          "y": 0.5,
+          "w": 0.18,
+          "h": 0.05
+        }
+      },
+      "buttonData": {
+        "bgColor": {
+          "r": 255,
+          "g": 0,
+          "b": 0,
+          "a": 255
+        },
+        "hoverBgColor": {
+          "r": 255,
+          "g": 255,
+          "b": 0,
+          "a": 255
+        },
+        "text": "Hard",
+        "fontKey": "button",
+        "textSize": 24,
+        "textColor": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 255
+        },
+        "hoverTextColor": {
+          "r": 100,
+          "g": 100,
+          "b": 150,
+          "a": 255
+        },
+        "anim": true
+      }
+    },
+    {
+      "entityData": {
+        "id": "Back",
+        "name": "Button",
+        "texPath": "../Assets/Buttons/Button_Background.png",
+        "posData": {
+          "x": 0.5,
+          "y": 0.61,
+          "w": 0.18,
+          "h": 0.05
+        }
+      },
+      "buttonData": {
+        "text": "Back",
+        "fontKey": "button",
+        "textSize": 22,
+        "bgColor": {
+          "r": 108,
+          "g": 122,
+          "b": 137,
+          "a": 255
+        },
+        "hoverBgColor": {
+          "r": 149,
+          "g": 165,
+          "b": 166,
+          "a": 255
+        },
+        "textColor": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 255
+        },
+        "hoverTextColor": {
+          "r": 240,
+          "g": 240,
+          "b": 240,
+          "a": 255
+        },
+        "anim": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "boardName": "Grass",
+  "elements": [
+    {
+      "entityData": {
+        "id": "Board",
+        "name": "Board",
+        "texPath": "../Assets/Boards/Grass/Board.png",
+        "posData": { "x": 0.5, "y": 0.5, "w": 0.75, "h": 0.75 }
+      }
+    },
+    {
+      "entityData": {
+        "id": "MarkerX",
+        "name": "MarkerX",
+        "texPath": "../Assets/Boards/Grass/X.png",
+        "posData": { "x": 0.5, "y": 0.5, "w": 0.1, "h": 0.1 }
+      }
+    },
+    {
+      "entityData": {
+        "id": "MarkerO",
+        "name": "MarkerO",
+        "texPath": "../Assets/Boards/Grass/O.png",
+        "posData": { "x": 0.5, "y": 0.5, "w": 0.1, "h": 0.1 }
+      }
+    }
+  ],
+  "cellRects": [
+    { "x": 0.26, "y": 0.26, "w": 0.13, "h": 0.13 },  { "x": 0.435, "y": 0.26, "w": 0.13, "h": 0.13 },  { "x": 0.61, "y": 0.26, "w": 0.13, "h": 0.13 },
+
+    { "x": 0.26, "y": 0.43, "w": 0.13, "h": 0.13 },  { "x": 0.435, "y": 0.43, "w": 0.13, "h": 0.13 },  { "x": 0.61, "y": 0.43, "w": 0.13, "h": 0.13 },
+
+    { "x": 0.26, "y": 0.60, "w": 0.13, "h": 0.13 },  { "x": 0.435, "y": 0.60, "w": 0.13, "h": 0.13 },  { "x": 0.61, "y": 0.60, "w": 0.13, "h": 0.13 }
+  ]
+}

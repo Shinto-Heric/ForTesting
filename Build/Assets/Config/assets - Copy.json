@@ -1,0 +1,143 @@
+{
+
+  "screenName": "MainMenu",
+    "elements": [
+      {
+        "entityData": {
+          "id": "Play",
+          "name": "Button",
+          "texPath": "../Assets/Buttons/Button_Background.png",
+          "posData": {
+            "x": 0.5,
+            "y": 0.5,
+            "w": 0.5,
+            "h": 0.5
+          }
+        },
+        "buttonData": {
+          "bgColor": {
+            "r": 100,
+            "g": 100,
+            "b": 150,
+            "a": 255
+          },
+          "hoverBgColor": {
+            "r": 100,
+            "g": 100,
+            "b": 150,
+            "a": 255
+          },
+          "text": "Play",
+          "textSize": 24,
+          "textColor": {
+            "r": 100,
+            "g": 100,
+            "b": 150,
+            "a": 255
+          },
+          "hoverTextColor": {
+            "r": 100,
+            "g": 100,
+            "b": 150,
+            "a": 255
+          },
+          "anim": true
+        }
+      },
+      {
+        "entityData": {
+          "id": "Bg",
+          "name": "Background",
+          "texPath": "../Assets/Buttons/Button_Background.png",
+          "posData": {
+            "x": 0.5,
+            "y": 0.5,
+            "w": 0.5,
+            "h": 0.5
+          }
+        }
+      },
+      {
+        "entityData": {
+          "id": "Settings",
+          "name": "Button",
+          "texPath": "../Assets/Buttons/Button_Background.png",
+          "posData": {
+            "x": 0.5,
+            "y": 0.5,
+            "w": 0.5,
+            "h": 0.5
+          }
+        },
+        "buttonData": {
+          "bgColor": {
+            "r": 100,
+            "g": 100,
+            "b": 150,
+            "a": 255
+          },
+          "hoverBgColor": {
+            "r": 100,
+            "g": 100,
+            "b": 150,
+            "a": 255
+          },
+          "text": "Settings",
+          "textColor": {
+            "r": 100,
+            "g": 100,
+            "b": 150,
+            "a": 255
+          },
+          "hoverTextColor": {
+            "r": 100,
+            "g": 100,
+            "b": 150,
+            "a": 255
+          },
+          "anim": true
+        }
+      },
+      {
+        "entityData": {
+          "id": "Quit",
+          "name": "Button",
+          "texPath": "../Assets/Buttons/Button_Background.png",
+          "posData": {
+            "x": 0.5,
+            "y": 0.5,
+            "w": 0.5,
+            "h": 0.5
+          }
+        },
+        "buttonData": {
+          "bgColor": {
+            "r": 100,
+            "g": 100,
+            "b": 150,
+            "a": 255
+          },
+          "hoverBgColor": {
+            "r": 100,
+            "g": 100,
+            "b": 150,
+            "a": 255
+          },
+          "text": "Play",
+          "textColor": {
+            "r": 100,
+            "g": 100,
+            "b": 150,
+            "a": 255
+          },
+          "hoverTextColor": {
+            "r": 100,
+            "g": 100,
+            "b": 150,
+            "a": 255
+          },
+          "anim": true
+        }
+      }
+    ]
+}

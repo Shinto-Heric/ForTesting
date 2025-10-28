@@ -1,0 +1,108 @@
+{
+
+  "screenName": "GamplayScreen",
+  "elements": [
+    {
+      "entityData": {
+        "id": "Bg",
+        "name": "BO",
+        "texPath": "../Assets/Background.png",
+        "posData": {
+          "x": 0.5,
+          "y": 0.5,
+          "w": 1,
+          "h": 1
+        }
+      }
+    },
+    {
+      "entityData": {
+        "id": "Exit",
+        "name": "Button",
+        "texPath": "../Assets/Buttons/Button_Background.png",
+        "posData": {
+          "x": 0.5,
+          "y": 0.95,
+          "w": 0.4,
+          "h": 0.1
+        }
+      },
+      "buttonData": {
+        "bgColor": {
+          "r": 255,
+          "g": 0,
+          "b": 0,
+          "a": 255
+        },
+        "hoverBgColor": {
+          "r": 255,
+          "g": 255,
+          "b": 0,
+          "a": 255
+        },
+        "text": "Exit",
+        "fontKey": "button",
+        "textSize": 48,
+        "textColor": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 255
+        },
+        "hoverTextColor": {
+          "r": 100,
+          "g": 100,
+          "b": 150,
+          "a": 255
+        },
+        "anim": true
+      }
+    },
+    {
+      "entityData": {
+        "id": "Winner",
+        "name": "Label",
+        "posData": {
+          "x": 0.5,
+          "y": 0.47,
+          "w": 0.9,
+          "h": 0.1
+        }
+      },
+      "labelData": {
+        "text": "",
+        "fontKey": "popupTitle",
+        "textSize": 24,
+        "textColor": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 255
+        }
+      }
+    },
+    {
+      "entityData": {
+        "id": "CountDown",
+        "name": "Label",
+        "posData": {
+          "x": 0.5,
+          "y": 0.53,
+          "w": 0.9,
+          "h": 0.1
+        }
+      },
+      "labelData": {
+        "text": "",
+        "fontKey": "popupTitle",
+        "textSize": 24,
+        "textColor": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 255
+        }
+      }
+    }
+  ]
+}

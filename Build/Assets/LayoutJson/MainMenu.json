@@ -1,0 +1,299 @@
+{
+  "screenName": "MainMenu",
+  "elements": [
+    {
+      "entityData": {
+        "id": "Bg",
+        "name": "BO",
+        "texPath": "../Assets/Background.png",
+        "posData": {
+          "x": 0.5,
+          "y": 0.5,
+          "w": 1,
+          "h": 1
+        }
+      }
+    },
+    {
+      "entityData": {
+        "id": "Title",
+        "name": "Label",
+        "posData": {
+          "x": 0.5,
+          "y": 0.15,
+          "w": 0.9,
+          "h": 0.5
+        }
+      },
+      "labelData": {
+        "text": "TIC TAC TOE",
+        "fontKey": "popupTitle",
+        "textSize": 60,
+        "textColor": {
+          "r": 255,
+          "g": 0,
+          "b": 0,
+          "a": 255
+        }
+      }
+    },
+    {
+      "entityData": {
+        "id": "Play",
+        "name": "Button",
+        "texPath": "../Assets/Buttons/Button_Background.png",
+        "posData": {
+          "x": 0.5,
+          "y": 0.32,
+          "w": 0.4,
+          "h": 0.10
+        }
+      },
+      "buttonData": {
+        "bgColor": {
+          "r": 102,
+          "g": 204,
+          "b": 255,
+          "a": 255
+        },
+        "hoverBgColor": {
+          "r": 153,
+          "g": 230,
+          "b": 255,
+          "a": 255
+        },
+        "text": "Quick Play",
+        "fontKey": "button",
+        "textSize": 24,
+        "textColor": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 255
+        },
+        "hoverTextColor": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 255
+        },
+        "anim": true
+      }
+    },
+    {
+      "entityData": {
+        "id": "Multi",
+        "name": "Button",
+        "texPath": "../Assets/Buttons/Button_Background.png",
+        "posData": {
+          "x": 0.5,
+          "y": 0.42,
+          "w": 0.4,
+          "h": 0.10
+        }
+      },
+      "buttonData": {
+        "bgColor": {
+          "r": 144,
+          "g": 238,
+          "b": 144,
+          "a": 255
+        },
+        "hoverBgColor": {
+          "r": 169,
+          "g": 255,
+          "b": 169,
+          "a": 255
+        },
+        "text": "Local Multi Player",
+        "fontKey": "button",
+        "textSize": 24,
+        "textColor": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 255
+        },
+        "hoverTextColor": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 255
+        },
+        "anim": true
+      }
+    },
+    {
+      "entityData": {
+        "id": "Stats",
+        "name": "Button",
+        "texPath": "../Assets/Buttons/Button_Background.png",
+        "posData": {
+          "x": 0.5,
+          "y": 0.52,
+          "w": 0.4,
+          "h": 0.10
+        }
+      },
+      "buttonData": {
+        "bgColor": {
+          "r": 255,
+          "g": 223,
+          "b": 128,
+          "a": 255
+        },
+        "hoverBgColor": {
+          "r": 255,
+          "g": 239,
+          "b": 170,
+          "a": 255
+        },
+        "text": "Stats",
+        "fontKey": "button",
+        "textSize": 24,
+        "textColor": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 255
+        },
+        "hoverTextColor": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 255
+        },
+        "anim": true
+      }
+    },
+    {
+      "entityData": {
+        "id": "Info",
+        "name": "Button",
+        "texPath": "../Assets/Buttons/Button_Background.png",
+        "posData": {
+          "x": 0.5,
+          "y": 0.62,
+          "w": 0.4,
+          "h": 0.10
+        }
+      },
+      "buttonData": {
+        "bgColor": {
+          "r": 255,
+          "g": 182,
+          "b": 193,
+          "a": 255
+        },
+        "hoverBgColor": {
+          "r": 255,
+          "g": 204,
+          "b": 213,
+          "a": 255
+        },
+        "text": "How to Play",
+        "fontKey": "button",
+        "textSize": 24,
+        "textColor": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 255
+        },
+        "hoverTextColor": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 255
+        },
+        "anim": true
+      }
+    },
+    {
+      "entityData": {
+        "id": "Settings",
+        "name": "Button",
+        "texPath": "../Assets/Buttons/Button_Background.png",
+        "posData": {
+          "x": 0.5,
+          "y": 0.72,
+          "w": 0.4,
+          "h": 0.10
+        }
+      },
+      "buttonData": {
+        "bgColor": {
+          "r": 221,
+          "g": 160,
+          "b": 221,
+          "a": 255
+        },
+        "hoverBgColor": {
+          "r": 238,
+          "g": 174,
+          "b": 238,
+          "a": 255
+        },
+        "text": "Settings",
+        "fontKey": "button",
+        "textSize": 24,
+        "textColor": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 255
+        },
+        "hoverTextColor": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 255
+        },
+        "anim": true
+      }
+    },
+    {
+      "entityData": {
+        "id": "Exit",
+        "name": "Button",
+        "texPath": "../Assets/Buttons/Button_Background.png",
+        "posData": {
+          "x": 0.5,
+          "y": 0.82,
+          "w": 0.4,
+          "h": 0.10
+        }
+      },
+      "buttonData": {
+        "bgColor": {
+          "r": 255,
+          "g": 99,
+          "b": 71,
+          "a": 255
+        },
+        "hoverBgColor": {
+          "r": 255,
+          "g": 127,
+          "b": 80,
+          "a": 255
+        },
+        "text": "Quit Game",
+        "fontKey": "button",
+        "textSize": 24,
+        "textColor": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 255
+        },
+        "hoverTextColor": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 255
+        },
+        "anim": true
+      }
+    }
+  ]
+}

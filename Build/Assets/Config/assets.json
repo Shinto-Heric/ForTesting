@@ -1,0 +1,79 @@
+{
+  "window": {
+    "title": "Tic Tac Toe",
+    "width": 800,
+    "height": 800,
+    "fullscreen": false,
+    "resizable": false
+  },
+  "logical": {
+    "width": 600,
+    "height": 600
+  },
+  "render": {
+    "vsync": true,
+    "accelerated": true
+  },
+  "layouts": {
+    "screens": {
+      "menuScreen": "../Assets/LayoutJson/MainMenu.json",
+      "gameplayScreen": "../Assets/LayoutJson/GamplayScreen.json",
+      "hud": "../Assets/LayoutJson/HUD.json"
+    },
+    "popups": {
+      "settings": "../Assets/LayoutJson/SettingsPopup.json",
+      "quitPopup": "../Assets/LayoutJson/QuitPopup.json",
+      "difficultyPopup": "../Assets/LayoutJson/DifficultySelectionPopup.json",
+      "gameplayExitPopup": "../Assets/LayoutJson/GameplayExitPopup.json",
+      "exitPopup": "../Assets/LayoutJson/ExitPopup.json",
+      "statsPopup": "../Assets/LayoutJson/StatsPopup.json",
+      "infoPopup": "../Assets/LayoutJson/InfoPopup.json"
+    }
+  },
+  "boards": {
+    "wood": {
+      "board": "../Assets/Boards/Wood/Board.png",
+      "X": "../Assets/Boards/Wood/X.png",
+      "O": "../Assets/Boards/Wood/O.png",
+      "config": "../Assets/Boards/Wood/BoardConfig.json"
+    },
+    "grass": {
+      "board": "../Assets/Boards/Grass/Board.png",
+      "X": "../Assets/Boards/Grass/X.png",
+      "O": "../Assets/Boards/Grass/O.png",
+      "config": "../Assets/Boards/Grass/BoardConfig.json"
+    },
+    "chalk": {
+      "board": "../Assets/Boards/Chalk/Board.png",
+
+      "X": "../Assets/Boards/Chalk/X.png",
+      "O": "../Assets/Boards/Chalk/O.png",
+      "config": "../Assets/Boards/Chalk/BoardConfig.json"
+    }
+  },
+  "sounds": {
+    "buttonClick": "../Assets/Sounds/Button_Click.wav",
+    "marker": "../Assets/Sounds/Marker.wav",
+    "winner": "../Assets/Sounds/Winner.wav",
+    "boardReset": "../Assets/Sounds/BoardReset.wav"
+
+  },
+  "music": {
+    "gameplay": "../Assets/Sounds/Gameplay.wav"
+  },
+  "fonts": {
+    "default": "../Assets/Fonts/arial.ttf",
+    "title": "../Assets/Fonts/comic.ttf",
+    "popupTitle": "../Assets/Fonts/Title.ttf",
+    "button": "../Assets/Fonts/Button.ttf",
+    "body": "../Assets/Fonts/comic.ttf"
+  },
+  "settings": {
+    "volume": 80,
+    "musicVolume": 70,
+    "defaultBoard": "wood"
+  },
+  "info": {
+    "instructions": "\n\n1. Take turns marking a square.\n2. The first to get 3 in a row wins.\n3. You can play horizontally, vertically, or diagonally."
+  }
+}
